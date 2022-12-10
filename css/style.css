@@ -85,6 +85,7 @@ header {
 
 .msg-block {
   border: 1px solid var(--light-grayish-blue-1);
+  background: var(--white);
   border-radius: 5px;
   padding: 10px 14px;
   margin: 10px 20px 0 0;
@@ -133,8 +134,20 @@ a {
   margin-left: 2px;
 }
 
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: var(--red);
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+
+
 /* HOVER STATES */ 
-.msg-block:hover {
+.msg-block:hover, .msg-block:focus {
   cursor: pointer;
   background: var(--light-grayish-blue-2); 
 }
@@ -143,3 +156,16 @@ b.name:hover, em:hover, a:hover, .notif-picture-icon:hover, .mark-read-btn:hover
   cursor: pointer;
   color: var(--blue);
 }
+
+/*
+media query widths: 
+- Mobile: 375px
+- Desktop: 1440px
+
+*/ 
+
+/* 
+To do: 
+  media queries  
+
+*/ 
